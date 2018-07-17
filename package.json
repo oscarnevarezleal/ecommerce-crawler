@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-crawler",
+  "version": "0.0.1",
+  "description": "Ecommerce crawler with configurable options - it uses [Google Puppeteer](https://github.com/GoogleChrome/puppeteer)",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "puppeteer": "^1.6.0"
+  },
+  "dependencies": {
+    "@google-cloud/connect-datastore": "^1.0.0",
+    "@google-cloud/datastore": "^1.4.1",
+    "@google-cloud/pubsub": "^0.19.0",
+    "aws-sdk": "^2.252.1",
+    "co": "^4.6.0",
+    "debug": "^3.1.0",
+    "promisify": "0.0.3",
+    "request": "^2.87.0",
+    "xml2json": "^0.11.2"
+  }
+}
