@@ -47,12 +47,14 @@ Descriptor object is the backbone of this crawler, in here you specify each one 
 
 ### Puppeteer
 Puppeteer configuration
+
 |Property   	| Default  	| Comments  	|
 |---	|---	|---	|
 |waitUntil 	|  load 	| When to consider navigation succeeded, defaults to load. Given an array of event strings, navigation is considered to be successful after all events have been fired [See docs](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md)
 
 ### Aggregates
 Aggregation is a process that ocurrs after all elements have been grabbed.
+
 |Property   	| Type  	| Comments  	|
 |---	|---	|---	|
 |name	| String	|	|
