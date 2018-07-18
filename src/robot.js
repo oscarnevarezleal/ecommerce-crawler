@@ -38,7 +38,7 @@ module.exports = {
 
         return new Promise((async (resolve, reject) => {
             let {descriptor, aggregates} = config
-            let waitUntil = 'networkidle2'
+            let waitUntil = 'load'
             if ('waitUntil' in config.puppeteer) {
                 waitUntil = config.puppeteer.waitUntil
             }
